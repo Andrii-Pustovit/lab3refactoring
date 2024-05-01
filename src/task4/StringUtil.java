@@ -7,13 +7,4 @@ public class StringUtil {
         return string.toUpperCase();
 
     }
-
-
-
-    public static String toUpper(String string) {
-
-        return string.toUpperCase();
-
-    }
-
 }

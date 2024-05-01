@@ -2,10 +2,25 @@ package task1;
 
 public class LazyClass {
 
-    public String getHello() {
+    private String greeting;
 
-        return "Hello World";
-
+    public LazyClass(String greeting) {
+        this.greeting = greeting;
     }
 
+    public String getGreeting() {
+        return greeting;
+    }
+
+    public void setGreeting(String greeting) {
+        this.greeting = greeting;
+    }
+
+    public String getFormattedGreeting() {
+        return "Formatted Greeting: " + greeting;
+    }
+
+    public int calculateStringLength() {
+        return greeting.length();
+    }
 }

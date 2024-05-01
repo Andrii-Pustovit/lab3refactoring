@@ -7,15 +7,4 @@ public class DeadCode {
         System.out.println("An error occurred.");
 
     }
-
-
-
-    // unused function
-
-    public static void unusedFunction() {
-
-        System.out.println("This function is no longer used.");
-
-    }
-
 }
